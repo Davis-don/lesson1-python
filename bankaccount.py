@@ -48,7 +48,7 @@ choice: """))
       createAccount(Name,password,userName,startingAmount)
   else:
       print ("Invalid choice choose again")
-  while choice1 != 1 or choice1 != 2:
+  while choice1 not in [1,2]:
    choice1 = int(input("""What do you want to do today? enter(press 1 or 2)
    1) Login into account
    2) Open an account
